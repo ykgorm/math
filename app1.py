@@ -4,9 +4,9 @@ import streamlit as st
 # 제목 쓰기
 st.title('동생아 수학 공부하자!')  
 # 부제목 쓰기
-st.subheader('오늘의 주제: _______')
+st.subheader('오늘의 주제: 양수와 음수')
 # 본문 쓰기
-st.write('음수?? ______않아!') 
+st.write('음수?? 어렵지 않아!') 
 
 # 여러 개의 열(문단)을 생성
 #col1, col2 = st.columns(2)       
@@ -19,16 +19,16 @@ st.write('음수?? ______않아!')
 #      st.write('- 부호: (+)는 생략 가능 /(-)는 생략 불가')
 # 오른쪽 문단
 #with col2:
-#      st.image('______________')  # 이미지 파일 불러오기
+#      st.image('수학이미지.PNG')  # 이미지 파일 불러오기
 
 # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
-#a = st.number_input('____________', value= ____)  
+#a = st.number_input('수를 입력하세요', value= 0)  
 
 # 버튼 생성 및 동작
-#if st.button('양수일까 ____일까?'):
+#if st.button('양수일까 음수일까?'):
 #       if a > 0:
-#              st.write('________')
+#              st.write('양수')
 #       elif a < 0:
-#              st.write('________')
+#              st.write('음수')
 #       else:
-#              st.write('________')
+#              st.write('0')
